@@ -15,5 +15,5 @@ class Payment(db.Model):
       "paid": self.paid,
       "bank_payment_id": self.bank_payment_id,
       "qr_code": self.qr_code,
-      "expration_date": self.expiration_date
+      "expiration_date": self.expiration_date
     }
